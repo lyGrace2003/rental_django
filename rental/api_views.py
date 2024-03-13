@@ -10,6 +10,6 @@ class BelongingViewset(viewsets.ModelViewSet):
     queryset = models.Belonging.objects.all()
     serializer_class = serializers.BelongingSerializer
 
-class BorrowedViewset(viewsets.ModelViewSet):
-    queryset = models.Belonging.objects.all()
-    serializer_class = serializers.BelongingSerializer
+# class BorrowedViewset(viewsets.ModelViewSet):
+#     queryset = models.Belonging.objects.all()
+#     serializer_class = serializers.BorrowedSerializer
