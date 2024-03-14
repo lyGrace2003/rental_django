@@ -13,3 +13,5 @@ class BelongingViewset(viewsets.ModelViewSet):
 # class BorrowedViewset(viewsets.ModelViewSet):
 #     queryset = models.Belonging.objects.all()
 #     serializer_class = serializers.BorrowedSerializer
+    
+# fix api_views and views
